@@ -10,7 +10,7 @@ function App() {
    }
 
    if (isLoading) {
-    return <Loader />
+    return <loader />
    }
 
    return (
