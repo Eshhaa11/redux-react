@@ -6,4 +6,4 @@ const PokemonProfile = () => {
     )
 }
 
-export default PokemonProfile
+export default PokemonProfile 
