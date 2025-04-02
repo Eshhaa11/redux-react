@@ -1,7 +1,15 @@
-import "./loader.css"
+import * as React from 'react'
+import { createRoot } from 'react-dom/client'
+import { provider } from 'react-redux'
 
-const Loader = () => {
-  return (
-    <span className="loader"></span>
-  )
-}
+import App from './App'
+import { store } from './store'
+
+const container = document.getElementById('root')
+
+const root = createRoot(container)
+root.render (
+  <Provider store={store}>
+    <App />
+  </Provider>
+)
