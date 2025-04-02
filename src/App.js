@@ -19,7 +19,7 @@ function App() {
       <header className='App-header'>
         <h1>REDUX</h1>
       </header>
-      <PokemonProfile data={data./>
+      <PokemonProfile data={data}/>
 
     </div>
    )
